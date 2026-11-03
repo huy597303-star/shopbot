@@ -13,7 +13,7 @@ ADMIN_ID = int(os.getenv("ADMIN_ID", "9047366482"))
 ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "")
 DB_PATH = os.getenv("DATABASE_PATH", "shopbot.sqlite3")
 
-if not BOT_TOKEN:9291585542:AAEILt9kRz0opsjp2B1OAlIf30vCZMlaCSw
+if not BOT_TOKEN:"9291585542:AAEILt9kRz0opsjp2B1OAlIf30vCZMlaCSw"
     raise RuntimeError("Chua cau hinh BOT_TOKEN")
 
 logging.basicConfig(level=logging.INFO)
